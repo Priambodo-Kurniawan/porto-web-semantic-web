@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is Portfolio of Priambodo Nur Kurniawan Site">
+    <meta name="author" content="Priambodo Nur Kurniawan">
+    <title>Portfolio - Iam</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/helper.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i><i class="fa fa-times"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/whatsapp-logo.svg" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right relative">
+                    <li>
+                        <a class="page-scroll" href="#">Whatsapp Web</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Fitur</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Unduh</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Keamanan</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">FAQ</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-toggle" onclick="dropdownToggle()" href="#">
+                        ID <span class="caret"></span>
+                      </a>
+                    </li>
+                    <div class="row">
+                      <div class="hidden-dropdown">
+                        <div class="col-md-12 dropdown-custom">
+                          <div class="padding-20">
+                            <p>Pilih Bahasa Anda</p>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <a href="#">Azərbaycanca</a> <br>
+                                <a href="#">Česky</a> <br>
+                                <a href="#">English</a> <br>
+                                <a href="#">Italiano</a> <br>
+                                <a href="#">Magyar</a> <br>
+                                <a href="#">Pilipino</a> <br>
+                                <a href="#">Română</a> <br>
+                                <a href="#">Suomi</a> <br>
+                                <a href="#">Ελληνικά</a> <br>
+                                <a href="#">Pусский</a> <br>
+                                <a href="#">فارسی</a> <br>
+                                <a href="#">ગુજરાતી</a> <br>
+                                <a href="#">తెలుగు</a> <br>
+                                <a href="#">繁體中文</a> <br>
+                              </div>
+                              <div class="col-md-3">
+                                <a href="#" class="active">Bahasa Indonesia</a> <br>
+                                <a href="#">Dansk</a> <br>
+                                <a href="#">Español</a> <br>
+                                <a href="#">Kiswahili</a> <br>
+                                <a href="#">Nederlands</a> <br>
+                                <a href="#">Polski</a> <br>
+                                <a href="#">Shqip</a> <br>
+                                <a href="#">Svensk</a> <br>
+                                <a href="#">Български</a> <br>
+                                <a href="#">Српски</a> <br>
+                                <a href="#">فارسی</a> <br>
+                                <a href="#">हिंदी</a> <br>
+                                <a href="#">தமிழ்</a> <br>
+                                <a href="#">简体中文</a> <br>
+                              </div>
+                              <div class="col-md-3">
+                                <a href="#">Bahasa Melayu</a> <br>
+                                <a href="#">Deutsch</a> <br>
+                                <a href="#">Français</a> <br>
+                                <a href="#">Latviešu</a> <br>
+                                <a href="#">Norsk</a> <br>
+                                <a href="#">Português (PT)</a> <br>
+                                <a href="#">Slovenščina</a> <br>
+                                <a href="#">Türkçe</a> <br>
+                                <a href="#">Македонски</a> <br>
+                                <a href="#">‏עברית</a> <br>
+                                <a href="#">বাংলা</a> <br>
+                                <a href="#">मराठी</a> <br>
+                                <a href="#">ภาษาไทย</a> <br>
+                                <a href="#">한국어</a> <br>
+                              </div>
+                              <div class="col-md-3">
+                                <a href="#">Català</a> <br>
+                                <a href="#">Eesti</a> <br>
+                                <a href="#">Hrvatski</a> <br>
+                                <a href="#">Lietuviškai</a> <br>
+                                <a href="#">Oʻzbekcha</a> <br>
+                                <a href="#">Português (PT)</a> <br>
+                                <a href="#">Slovenčina</a> <br>
+                                <a href="#">Tiếng Việt</a> <br>
+                                <a href="#">Қазақша</a> <br>
+                                <a href="#">Українська</a> <br>
+                                <a href="#">اردو</a> <br>
+                                <a href="#">ಕನ್ನಡ</a> <br>
+                                <a href="#">മലയാളം</a> <br>
+                                <a href="#">日本語</a> <br>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <section class="main-banner">
+      <div class="container">
+        <div class="row equal center-flex m-t-100">
+          <div class="col-md-4 col-md-offset-2 col-xs-8 col-xs-offset-2">
+            <div>
+              <h1 class="slim">Pesan Reliabel. Sederhana. Aman</h1>
+              <p>Dengan WhatsApp, dapatkan aplikasi perpesanan dan panggilan yang cepat, sederhana, dan aman secara gratis*, tersedia untuk telepon di seluruh dunia.</p>
+              <small class="hint">* Biaya data mungkin berlaku. hubungi operator Anda untuk rincian.</small><br>
+              <ul class="list-unstyled m-t-20 visible-md-inline-block visible-lg-inline-block" >
+                <li class="green"><a href="#"><strong><img src="https://www-cdn.whatsapp.net/img/v4/icon-android.svg" alt="" class="m-r-10">Android</strong></a></li>
+                <li class="green"><a href="#"><strong><img src="https://www-cdn.whatsapp.net/img/v4/icon-iphone.svg" alt="" class="m-r-10">Iphone</strong></a></li>
+                <li class="green"><a href="#"><strong><img src="https://www-cdn.whatsapp.net/img/v4/icon-desktop.svg" alt="" class="m-r-10">Mac atau PC Windows</strong></a></li>
+                <li class="green"><a href="#"><strong><img src="https://www-cdn.whatsapp.net/img/v4/icon-wp.svg" alt="" class="m-r-10">Windows Phone</strong></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-offset-1 m-t-20 col-md-4 col-xs-8 col-xs-offset-2 main-img-wrapper">
+            <img src="https://www-cdn.whatsapp.net/img/v4/home-phone.png?v=d019601" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row equal m-r-15 m-l-15">
+          <div class="col-md-6 p-l-10 p-r-10">
+            <div class="text-center p-t-50 p-l-50 p-r-50" style="background-color: #D0E9EA; height: 100%;">
+              <div class="uppercase loose m-b-10">PANGGILAN SUARA DAN VIDEO WHATSAPP</div>
+              <h3 class="m-t-0 text-center slim">Berbicara dengan Gratis</h3>
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 m-t-20">
+                  <p><small>Dengan panggilan suara, Anda dapat berbicara dengan teman dan keluarga secara gratis*,
+                    bahkan jika mereka berada di negara lain. Dan dengan panggilan video gratis*,
+                    Anda dapat melakukan percakapan tatap muka saat suara atau teks saja tidak cukup.
+                    Panggilan suara dan video WhatsApp menggunakan koneksi Internet telepon,
+                    bukan dengan menit panggilan paket seluler Anda, jadi Anda tidak perlu
+                    khawatir akan biaya panggilan yang mahal.</small></p>
+                </div>
+              </div>
+              <div class="bottom col-md-8 col-md-offset-2">
+                <img src="https://www-cdn.whatsapp.net/img/v4/feature-3.png?v=d019601" class="img-responsive" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-l-10 p-r-10">
+            <div class="text-center padding-25" style="background-color: #EDF8F5; height: 100%;">
+              <div class="circle-img">
+                <img src="../img/download.png" alt="download" class="img-responsive">
+              </div>
+              <div class="uppercase loose m-b-10">ENKRIPSI END-TO-END</div>
+              <h3 class="m-t-0 text-center slim">Keamanan Secara Default</h3>
+              <div class="col-md-10 col-md-offset-1 m-t-20">
+                <p><small>Sebagian momen pribadi Anda dibagikan di WhatsApp, oleh karena itu kami
+                  membangun enkripsi end-to-end ke versi terbaru aplikasi kami.
+                  Ketika terenkripsi end-to-end, pesan dan panggilan Anda diamankan,
+                  jadi hanya Anda dan orang yang berkomunikasi dengan Anda saja yang
+                  dapat membaca pesan atau mendengar panggilan tersebut, dan tidak
+                  ada orang di antaranya, bahkan WhatsApp.</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="call-to-action">
+      <div class="text-center">
+        <a href="#">
+          <button class="btn-round btn-outline">JELAJAHI FITUR</button>
+        </a>
+      </div>
+    </section>
+    <section class="bg-dark padding-30">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-6 bottom-menu">
+                <div class="footer-title">
+                  whattsapp
+                </div>
+                <ul class="list-unstyled">
+                  <li>Fitur</li>
+                  <li>Keamanan</li>
+                  <li>Unduh</li>
+                  <li>WhatsApp Web</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6 bottom-menu">
+                <div class="footer-title">
+                  perusahaan
+                </div>
+                <ul class="list-unstyled">
+                  <li>Tentang</li>
+                  <li>Karir</li>
+                  <li>Pusat Merek</li>
+                  <li>Tetap terhubung</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6 bottom-menu">
+                <div class="footer-title">
+                  unduh
+                </div>
+                <ul class="list-unstyled">
+                  <li>Mac/PC</li>
+                  <li>Android</li>
+                  <li>Iphone</li>
+                  <li>Windows Phone</li>
+                  <li>BlackBerry</li>
+                  <li>Nokia</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6 bottom-menu">
+                <div class="footer-title">
+                  bantuan
+                </div>
+                <ul class="list-unstyled">
+                  <li>FAQ</li>
+                  <li>Twitter</li>
+                  <li>Facebook</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-3">
+                    <p><small>2017 © WhatsApp Inc.</small></p>
+                </div>
+                <div class="col-md-3 col-xs-3">
+                    <p class="text-white"><small>Privasi & Ketentuan</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script type="text/javascript">
+      function dropdownToggle(){
+        $('.dropdown-custom').toggleClass('open')
+      }
+    </script>
+</body>
+
+</html>
